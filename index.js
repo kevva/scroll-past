@@ -2,7 +2,6 @@
 var objectAssign = require('object-assign');
 
 module.exports = function (el, opts) {
-	el = el || window;
 	opts = objectAssign({threshold: 0}, opts);
 
 	var scrollTop = el.scrollTop;
