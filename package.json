@@ -1,0 +1,44 @@
+{
+  "name": "scroll-past",
+  "version": "0.0.0",
+  "description": "Return a promise when any element is scroll past",
+  "license": "MIT",
+  "repository": "kevva/scroll-past",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "browserify example/index.js > example/build.js",
+    "test": "xo"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "past",
+    "promise",
+    "scroll",
+    "viewport"
+  ],
+  "dependencies": {
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "xo": "*"
+  },
+  "xo": {
+    "envs": [
+      "browser",
+      "node"
+    ],
+    "ignores": [
+      "example/build.js"
+    ]
+  }
+}
