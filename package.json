@@ -1,6 +1,6 @@
 {
   "name": "scroll-past",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Return a promise when any element is scroll past",
   "license": "MIT",
   "repository": "kevva/scroll-past",
