@@ -6,6 +6,7 @@ module.exports = function (el, opts) {
 
 	var scrollTop = el.scrollTop;
 	var height = el.offsetHeight + opts.threshold;
+	var bottom = scrollTop + height;
 	var tick;
 
 	return new Promise(function (resolve) {
@@ -16,7 +17,7 @@ module.exports = function (el, opts) {
 				requestAnimationFrame(function () {
 					tick = null;
 
-					if (pos < scrollTop + height) {
+					if (pos < bottom) {
 						return;
 					}
 
