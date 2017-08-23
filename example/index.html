@@ -5,29 +5,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>scroll-past</title>
 		<style>
-			.div1,
-			.div2,
-			.div3 {
+			.Box{
 				height: 500px;
 			}
 
-			.div1 {
+			.Box--green {
 				background-color: green;
 			}
 
-			.div2 {
+			.Box--blue {
 				background-color: blue;
 			}
 
-			.div3 {
+			.Box--red {
 				background-color: red;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="div1"></div>
-		<div class="div2"></div>
-		<div class="div3"></div>
+		<div class="Box Box--green"></div>
+		<div class="Box Box--blue"></div>
+		<div class="ScrollPast Box Box--red"></div>
 		<script src="build.js"></script>
 	</body>
 </html>

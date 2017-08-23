@@ -1,6 +1,6 @@
 'use strict';
-var scrollPast = require('../');
+const scrollPast = require('../');
 
-scrollPast(document.querySelector('.div3')).then(function (pos) {
-	console.log('I\'m at ' + pos);
+scrollPast(document.querySelector('.ScrollPast')).then(pos => {
+	console.log(`I'm at ${pos}`);
 });

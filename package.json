@@ -5,15 +5,15 @@
   "license": "MIT",
   "repository": "kevva/scroll-past",
   "author": {
-    "name": "Kevin Martensson",
+    "name": "Kevin Mårtensson",
     "email": "kevinmartensson@gmail.com",
     "url": "github.com/kevva"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "build": "browserify example/index.js > example/build.js",
+    "build": "webpack example/index.js example/build.js",
     "test": "xo"
   },
   "files": [
@@ -25,11 +25,8 @@
     "scroll",
     "viewport"
   ],
-  "dependencies": {
-    "object-assign": "^4.0.1"
-  },
   "devDependencies": {
-    "browserify": "^13.0.0",
+    "webpack": "^3.5.5",
     "xo": "*"
   },
   "xo": {

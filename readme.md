@@ -1,12 +1,12 @@
 # scroll-past
 
-> Return a promise when any element is scroll past
+> Return a Promise when any element is scroll past
 
 
 ## Install
 
 ```
-$ npm install --save scroll-past
+$ npm install scroll-past
 ```
 
 
@@ -25,11 +25,11 @@ scrollPast(document.querySelector('.container')).then(pos => {
 
 ### scrollPast(element, [options])
 
-Returns a promise that resolves the `scrollY` position of the window.
+Returns a `Promise` that resolves the `scrollY` position of the window.
 
 #### element
 
-Type: `element`
+Type: `Element`
 
 The element to check for.
 
@@ -40,9 +40,9 @@ The element to check for.
 Type: `number`<br>
 Default: `0`
 
-Add a threshold to scroll past before the promise is returned.
+Add a threshold to scroll past before the `Promise` is returned.
 
 
 ## License
 
-MIT © [Kevin Martensson](http://github.com/kevva)
+MIT © [Kevin Mårtensson](https://github.com/kevva)
