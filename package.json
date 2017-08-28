@@ -1,41 +1,41 @@
 {
-  "name": "scroll-past",
-  "version": "2.0.0",
-  "description": "Return a promise when any element is scroll past",
-  "license": "MIT",
-  "repository": "kevva/scroll-past",
-  "author": {
-    "name": "Kevin Mårtensson",
-    "email": "kevinmartensson@gmail.com",
-    "url": "github.com/kevva"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "build": "webpack example/index.js example/build.js",
-    "test": "xo"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "past",
-    "promise",
-    "scroll",
-    "viewport"
-  ],
-  "devDependencies": {
-    "webpack": "^3.5.5",
-    "xo": "*"
-  },
-  "xo": {
-    "envs": [
-      "browser",
-      "node"
-    ],
-    "ignores": [
-      "example/build.js"
-    ]
-  }
+	"name": "scroll-past",
+	"version": "2.0.0",
+	"description": "Return a promise when any element is scroll past",
+	"license": "MIT",
+	"repository": "kevva/scroll-past",
+	"author": {
+		"name": "Kevin Mårtensson",
+		"email": "kevinmartensson@gmail.com",
+		"url": "github.com/kevva"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"build": "webpack example/index.js example/build.js",
+		"test": "xo"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"past",
+		"promise",
+		"scroll",
+		"viewport"
+	],
+	"devDependencies": {
+		"webpack": "^3.5.5",
+		"xo": "*"
+	},
+	"xo": {
+		"envs": [
+			"browser",
+			"node"
+		],
+		"ignores": [
+			"example/build.js"
+		]
+	}
 }
